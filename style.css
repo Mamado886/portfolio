@@ -1,0 +1,171 @@
+body
+{
+    font-family: "Montserrat";
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*HEADER*/
+header
+{
+    height: 50px;
+    padding: 30px 60px;
+}
+header ul
+{
+    float: left;
+    border-left: 30px;
+    
+}
+header ul li
+{
+    display: inline-block;
+    margin-right: 30px;
+    border-bottom: 1px solid blue;
+    list-style: none;
+    width: 55px;
+    text-align: center;
+}
+header ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+a{
+    background-color: rgb(227, 135, 70,);
+}
+.accueil-form
+{
+    float: right;
+   
+}
+header form input
+{
+    border: 1px solid blue;
+    
+}
+header form button
+{
+    background-color: rgb(36, 36, 79);
+    color: #fff;
+    padding:0px 8px ;
+}
+/*MAIN*/
+main
+{
+    clear: both;
+    padding: 30px;
+}
+main h1
+{
+    font-size: 20px;
+    text-align: center;
+ 
+}
+.container
+{
+   display: flex;
+   justify-content: center;
+}
+.element
+{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+.premier-element
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: green;
+}
+
+.deuxieme-element
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+.troixieme-element
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: red;
+}
+/*MAIN PRODUIT*/
+.box
+{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 20px;
+
+}
+article
+{
+    background-color: azure;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    
+}
+.fond-gris:hover
+{
+    padding: 10px 10px 60px 10px;
+}
+article h2{
+    font-size: 15px;
+    position: absolute; 
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.fond-gris
+{
+    height: 340;
+    width: 270;
+    background-color: rgb(204, 205, 205);
+    padding: 0px 0px 60px 0px;
+    position: relative; 
+  
+}
+/*CONTACT*/
+.input
+{
+    display: block;
+     margin-bottom: 10px; 
+}
+.contact-form
+{
+    height:300px;
+    width: 300px;
+    background: linear-gradient(to right, #F0F4F8, #7db2f0);
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+label
+{
+    font-size: 13px;
+}
+.button
+{
+    margin-top: 20px;
+    padding: 6px 12px;
+    background-color: rgb(36, 122, 243);
+    color: #fff;
+}
+
