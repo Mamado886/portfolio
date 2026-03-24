@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
+</head>
+
+<body>
+
+
+    <!--____________________________________Entete____________________________________-->
+
+
+    <header>
+        <nav class="nav-container">
+            <a href="#hero_section" class="logo">MD</a>
+            <input type="checkbox" id="menu">
+
+            <label for="menu" class="icon-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="menu-navigation">
+                <li><a href="#hero_section">Accueil</a></li>
+                <li><a href="#a_propos_de_moi">a propos</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+                <li><a href="#grille_projet">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <!--____________________________________Section-hero____________________________________-->
+
+        <section id="hero_section" class="hero-section">
+
+            <div class="contenu_hero">
+                <h1>Mamadou Dieye</h1>
+                <h2>Étudiant en Licence 1 Informatique</h2>
+
+                <p>
+                    Passionné par le développement logiciel et l'architecture des réseaux.
+                    Je conçois des solutions innovantes alliant logique mathématique et technologies modernes.
+                </p>
+                <a href="#grille_projet" class="hero-button">Découvrir mes projets</a>
+
+        </section>
+        <!--____________________________________Presentation-competences___________________________________-->
+
+        <section id="a_propos_de_moi">
+            <div class="profile">
+                <img src="./image/IMG_5134.jpeg" alt="Mon Portrait" class="avatar">
+
+                <div class="info_academique">
+                    <strong>🎓 Parcours Académique</strong><br>
+                    Filière : Informatique & Ingénierie<br>
+                    Université : Ecole Supérieur de Technologie et de Management (ESTM)<br>
+                    Année : 2025-2026
+                </div>
+            </div>
+
+            <div class="contenu">
+                <h2>À propos de moi</h2>
+                <p>
+                    Passionné par l'architecture des systèmes et le développement logique, je m'épanouis dans la
+                    résolution de problèmes complexes. Mon objectif est de maîtriser les infrastructures réseaux tout en
+                    concevant des solutions logicielles optimisées. Motivé par l'innovation technique, je cherche
+                    constamment à lier théorie mathématique et application pratique.
+                </p>
+
+                <h3>Mes Compétences Techniques</h3>
+                <div class="container_competence">
+                    <div class="competence">
+                        <div class="competence_label"><span>HTML5</span><span>90%</span></div>
+                        <div class="barre">
+                            <div class="progression" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="competence">
+                        <div class="competence_label"><span>CSS3 / Design</span><span>85%</span></div>
+                        <div class="barre">
+                            <div class="progression" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="competence">
+                        <div class="competence_label"><span>Algorithmique</span><span>80%</span></div>
+                        <div class="barre">
+                            <div class="progression" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="competence">
+                        <div class="competence_label"><span>Réseaux & Commutation</span><span>75%</span></div>
+                        <div class="barre">
+                            <div class="progression" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="competence">
+                        <div class="competence_label"><span>Logique Combinatoire</span><span>70%</span></div>
+                        <div class="barre">
+                            <div class="progression" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="competence">
+                        <div class="competence_label"><span>Linear Algebra</span><span>65%</span></div>
+                        <div class="barre">
+                            <div class="progression" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--____________________________________Projets____________________________________-->
+
+
+
+        <section class="projet">
+            <h2>Mes Projets</h2>
+            <div id="grille_projet">
+                <div class="carte_projet">
+                    <video src="./video/Fruit.mp4" autoplay loop muted width="270" style="border-radius: 5px;"></video>
+
+                    <a href="https://mamado886.github.io/global_fruit/" class="lien_projet" target="_blank">
+                        <h3>Projet 1: Ventes et Achats</h3>
+                        <p>C'est un projet pour une entreprise spécialisée dans la vente de fruits frais, naturels et de
+                            qualité.
+                            Il sélectionne avec soin des produits auprès des meilleurs fournisseurs afin de garantir
+                            fraîcheur,
+                            goût et bienfaits pour la santé..</p>
+                        <div class="technologies">
+                            <span class="tag1">HTML</span>
+                            <span class="tag2">CSS</span>
+                            <span class="tag3">JavaScript</span>
+                        </div>
+                    </a>
+                </div>
+                <!-- Ajoutez les autres projets ici -->
+                <div class="carte_projet">
+                    <img src="./Img-projects/Capture d'écran2.jpg" width="270" alt="Projet 2">
+                    <a href=" https://mamado886.github.io/Restaurant/" class="lien_projet">
+                        <h3>Projet 2: Site de retaurant</h3>
+                        <p>Découvrez un univers de saveurs dans notre restaurant, où chaque plat est une invitation au
+                            voyage.
+                            Nous mettons à votre disposition une cuisine riche,
+                            savoureuse et préparée avec passion par nos chefs.</p>
+                        <div class="technologies">
+                            <span class="tag1">HTML</span>
+                            <span class="tag2">css</span>
+                            <span class="tag3">JavaScript</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="carte_projet">
+                    <video src="./video/Univers_voyege_group.mp4" width="270" muted loop autoplay
+                        style="border-radius: 5px;"></video>
+                    <a href="https://mamado886.github.io/MamadouDieye/" class="lien_projet" target="_blank">
+                        <h3>Projet 3: Agence de voyage </h3>
+                        <p>Chez univers voyage group nous savons que voyager est une aventure humain mais egalement un
+                            engagement financier important pour vous.
+                            C'est pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos attentes
+                            pour vous aider dans la préparation de votre séjour,
+                            circuit ou voyage sur mesure.</p>
+                        <div class="technologies">
+                            <span class="tag1">HTML</span>
+                            <span class="tag2">CSS</span>
+                            <span class="tag3">JavaScript</span>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="carte_projet">
+                    <video src="./video/robbies_lens.mp4" width="270" muted loop autoplay
+                        style="border-radius: 5px;"></video>
+                    <a href="https://mamado886.github.io/Robbies_lens/" class="lien_projet">
+                        <h3>Projet 4: Robbies lens</h3>
+                        <p>Photographe depuis 5 ans,je realise des repostages aus photos dynamiques et pertinentes pour
+                            vos projets de communication.
+                            Creativite,qualite,et serenite pour vous ! Je gere tout,depuis la directin artistique,la la
+                            realisation du reportage,
+                            jusqu'à la livraison de vos photos retouches, pres à l'emploie</p>
+                        <div class="technologies">
+                            <span class="tag1">HTML</span>
+                            <span class="tag2">css</span>
+                            <span class="tag3">JavaScript</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--____________________________________Parcours____________________________________-->
+
+
+
+        <section id="parcours">
+            <div class="container">
+                <div class="element-ligne-temps">
+                    <div class="contenu-ligne-temps">
+                        <span class="date">Juin 2021</span>
+                        <h3 class="titre">Obtention du Baccalauréat</h3>
+                        <p class="description">Diplôme obtenu avec mention. Spécialités Mathématiques et Sciences .</p>
+                    </div>
+                </div>
+
+                <div class="element-ligne-temps">
+                    <div class="contenu-ligne-temps">
+                        <span class="date">Septembre 2025</span>
+                        <h3 class="titre">Inscription à l'ESTM</h3>
+                        <p class="description">Début du parcours en Licence Informatique pour approfondir les bases du
+                            développement et des systèmes.</p>
+                    </div>
+                </div>
+
+                <div class="element-ligne-temps">
+                    <div class="contenu-ligne-temps">
+                        <span class="date">2026 - En cours</span>
+                        <h3 class="titre">Licence 1 (L1)</h3>
+                        <p class="description">Concentration sur l'algorithmique, la logique numérique et l'architecture
+                            réseau.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--____________________________________Contact____________________________________-->
+
+
+
+        <section class="contact_section" id="contact">
+            <div class="contact-info">
+                <h2>Me Contacter</h2>
+                <div class="info">
+                    <strong>Email</strong>
+                    <p>dieye3047@gmail.com</p>
+                </div>
+                <div class="info">
+                    <strong>Téléphone</strong>
+                    <p>+221 78 367 46 18</p>
+                </div>
+                <div class="info">
+                    <strong>Localisation</strong>
+                    <p>Campus Universitaire, Dakar</p>
+                </div>
+            </div>
+
+            <form>
+                <div class="group">
+                    <label for="name">Nom Complet</label>
+                    <input type="text" id="name" name="name" placeholder="Ex: Jean Dupont" required>
+                </div>
+                <div class="group">
+                    <label for="email">Adresse Email</label>
+                    <input type="email" id="email" name="email" placeholder="nom@exemple.com" required>
+                </div>
+
+                <div class="group">
+                    <label for="subject">Sujet</label>
+                    <select id="subject" name="subject">
+                        <option value="collaboration">Collaboration Projet</option>
+                        <option value="stage">Demande de Stage</option>
+                        <option value="questions">Question Technique</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+
+                <div class="group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Votre message ici..." required></textarea>
+                </div>
+
+                <button type="button">Envoyer le message</button>
+            </form>
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30867.80478482961!2d-17.49177293167468!3d14.742214592014047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10d5bae0c6311%3A0x7e62e1147414012f!2sOuest%20Foire%2C%20Dakar!5e0!3m2!1sfr!2ssn!4v1773973169227!5m2!1sfr!2ssn"
+                    width="260" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" style="border-radius: 10px;"></iframe>
+            </div>
+        </section>
+
+        <!--____________________________________Pied-de-page____________________________________-->
+
+
+
+        <footer>
+            <div class="pied-container">
+                <div class="pied-copyright">
+                    <p>© Mamadou Dieye — 2026</p>
+                </div>
+
+                <div class="reseaux-sociaux">
+                    <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a
+                        href="https://accounts.google.com/signout/chrome/landing?continue=https%3A%2F%2Fmail.google.com%2Fmail&oc=https%3A%2F%2Fmail.google.com%2Fmail&hl=fr">Contact
+                        Email</a>
+                </div>
+
+                <div class="vers-le-haut">
+                    <a href="#top" class="vlh" aria-label="Remonter en haut de la page">
+                        ↑ Retour en haut
+                    </a>
+                </div>
+            </div>
+
+            <div class="pied">
+                <p>Conçu avec soin dans le cadre de ma Licence Informatique.</p>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
